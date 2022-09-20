@@ -1,0 +1,28 @@
+ul li{
+float: left;
+background-color: green;
+height:50px;
+width:180px;
+list-style: none;
+line-height: 50px;
+text-align: center;
+margin-left:3px;
+text-transform: capitalize;
+}
+
+ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}   
+ul li:hover{
+    background: black;
+    box-shadow: -2px -2px red;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+ul li>ul li{
+    display:none;
+}
+ul li:hover>ul li{
+    display: block;
+}

@@ -1,0 +1,94 @@
+body{
+    margin:0;
+    padding:0;
+}
+.layout{
+    height:740px;
+    width: 1200px;
+    float: left;
+    margin-left: 100px;
+}
+.header{
+    height:100px;
+    width: 1200px;
+    background:skyblue;
+    float: left;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding:10px;
+    text-shadow: -2px -2px wheat;
+}
+h2{
+    font-size: 30px;
+    color: white;
+    margin-left:70px;
+    text-shadow:-1px -2px black;
+}
+p{
+    font-size:15px;
+    margin-left:70px;  
+}
+.container{
+    height:640px;
+    width: 1200px;
+    background:gray;
+    float: left;
+}
+/*.regform{
+    margin-left:30px;
+}*/
+.initial{
+    position: relative;
+    font-size:20px;
+    left:20px;
+    top:15px;
+}
+.first{
+    box-shadow:-2px -2px white;
+    padding:15px;
+    width:250px;
+    height:3px;
+    margin-left:20px;
+}
+.second{
+    position:relative;
+    left:400px;
+    top:-452px;
+    box-shadow:-2px -2px white;
+    padding:15px;
+    width:250px;
+    height:3px;
+}
+.initial2{
+    position:relative;
+    font-size: 20px;
+    left:400px;
+    top:-435px;
+}
+.sidebar1{
+    height:640px;
+    width:400px;
+    background: white;
+    float: left;
+}
+.sidebar1 img{
+    height:640px;
+    width:400px;
+}
+.sidebar2{
+    height:640px;
+    width:800px;
+    float:left;
+}
+button{
+    background:blue;
+    color: aliceblue;
+    padding:5px;
+    font-size: 15px;
+    box-shadow:-2px -2px orange;
+    position: relative;
+    top:-445px;
+    left:50px;
+}

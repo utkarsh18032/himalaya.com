@@ -1,0 +1,339 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.layout{
+    height: 3600px;
+    width: 1200px;
+    background: orange;
+    margin: auto;
+}
+.header{
+    height: 200px;
+    width: 1200px;
+    background:royalblue;
+    float: left;
+}
+.logo{
+    height:200px;
+    width: 300px;
+    float:left;
+}
+.logo img{
+    height: 200px;
+    width: 300px;
+}
+.sidebar{
+    height: 150px;
+    width: 900px;
+    float: left;
+    background:orange;
+    
+} 
+small{
+    font-size:20px;
+    padding: 30px;
+    color: white;
+}
+h1{
+    font-size: 55px;
+    text-transform: capitalize;
+    color:white;
+    padding-left:60px;
+    padding-top: 20px;
+    text-shadow: -3px -3px gray;
+}
+.menu{
+    height: 50px;
+    width: 900px;
+    float: left;
+    background: royalblue;
+}
+
+.menu ul li{
+    float: left;
+    padding:5px;
+    display: block;
+    line-height:10px;
+    font-size:20px;
+    text-transform: capitalize;  
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    border: 1px black;
+}
+.menu ul li:hover{
+    background: white;
+    transition: 0.5s;
+    border:1px solid black;
+    border-radius:5px 0px;
+    font-size:15px ;
+    text-overflow:clip ;
+    text-transform:uppercase;
+    cursor: pointer;
+    color: black;
+    box-shadow: -2px -2px black;
+}
+
+.container{
+    height: 3200px;
+    width: 1200px;
+    background:white;
+    float: left;
+}
+
+.box1{
+    height: 800px;
+    width: 1200px;
+    background:orange;
+    float: left;  
+}
+
+.box1 img{
+    height: 800px;
+    width: 1200px;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box1 h1{
+    font-size:60px;
+    text-transform: capitalize;
+    color:orange;
+    padding-left:120px;
+    padding-top:100px;
+    background:white;
+}
+.box2{
+    height: 500px;
+    width: 1200px;
+    background:rgba(187, 255, 0, 0.411);
+    float: left; 
+}
+.box2 h1{
+    color: black;
+    text-align:center;
+   
+}
+.box2 img{
+    float: right;
+    width:400px;
+    height:500px;
+}
+.box8{
+    height: 500px;
+    width: 400px;
+    background:green;
+    float: left;  
+    box-shadow: 0 0 5px;
+    padding:10px;
+    text-align: center;
+    border: px solid black;
+}
+.box8 h1{
+    color:white;
+    box-shadow: 0px -3px black;
+}
+
+.input-box{
+    background:wheat;
+    border-radius:10px;
+    font-size:17px;
+    padding:10px;
+    margin:10px;
+    width:70%;
+    border:-3px -3px solid black;
+    outline: none;
+}
+.signup-btn{
+    color:white;
+    background:rgb(65, 68, 225);
+}
+button{
+    width:35%;
+    padding:10px;
+    border-radius:20px;
+    font-size:15px;
+    margin:5px;
+    border:none;
+    outline: none;
+}
+button:hover{
+    width:45%;
+    color:black;
+    background:skyblue;
+    border-radius:5px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+.or{
+    background: white;
+    width:30px;
+    margin:-7px auto 10px;
+}
+.box9{
+    height: 500px;
+    width: 800px;
+}
+.box9 p{
+    text-align: center;
+    margin:10px;
+    padding:20px;
+    font-size:17px;
+    
+}
+.box3{
+    height: 500px;
+    width: 1200px;
+    background:rgb(65, 140, 225);
+    float: left;  
+}
+.box3 img{
+    height:350px;
+    width:400px;
+    float:left;
+    padding-left:40px;
+    padding-top:10px;
+}
+.box3 ol{
+    text-decoration: none;
+}
+.admission{
+margin:50px;
+padding-left:450px;
+font-size: 20px;
+}
+marquee{
+    color: white;
+    font-size: 20px;
+}
+.box4{
+    height: 300px;
+    width: 1200px;
+    background: skyblue;
+    border: 1px solid black;
+    float: left;  
+}
+.box4 img{
+    height: 300px;
+    float: right;
+    width:550px;
+}
+.alumni{
+    font-size:25px;
+}
+.alumni h1{
+color: black;
+}
+.box5{
+    height: 400px;
+    width: 1200px;
+    background:skyblue;
+    float: left;  
+}
+.box5 h1{
+    text-align: center;
+    text-shadow: -3px -3px black;
+    font-size:25px;
+}
+.first{
+    position: relative;
+    left:20px;
+}
+.first img{
+    height:170px;
+    width:250px;
+}
+.second{
+    position: relative;
+    left:210px;
+}
+.second img{
+    height:170px;
+    width:250px;
+}
+.third{
+    position: relative;
+    left: 380px;
+    top:-350px;
+}
+.third img{
+    height:170px;
+    width:250px;
+}
+.fourth{
+    position: relative;
+    left:600px;
+    top:-350px;
+}
+.fourth img{
+    height:170px;
+    width:250px;
+}
+.fifth{
+    position: relative;
+    left: 750px;
+    top:-700px;
+}
+.fifth img{
+    height:170px;
+    width:250px;
+}
+.box6{
+    height: 400px;
+    width: 1200px;
+    background:rgb(50, 169, 205);
+    float: left;  
+}
+.box6 img{
+    height:400px;
+    width:1200px;
+    background-size: cover;
+}
+.box7{
+    height: 300px;
+    width: 1200px;
+    background:yellow;
+    float: left;  
+}
+ul li{
+    float: left;
+    background-color: green;
+    height:50px;
+    width:150px;
+    list-style: none;
+    line-height: 50px;
+    text-align: center;
+    margin-left:3px;
+    text-transform: capitalize;
+    }
+    
+    ul li a{
+        color: aliceblue;
+        text-decoration: none;
+    }   
+    ul li:hover{
+        background: black;
+        box-shadow: -2px -2px red;
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+    ul li>ul li{
+        display:none;
+    }
+    ul li:hover>ul li{
+        display: block;
+    }
+.footer{
+    height: 200px;
+    width: 1200px;
+    background:black;
+    float: left;
+}
+.footer h1{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
